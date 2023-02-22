@@ -1,3 +1,6 @@
+# Informação importante
+Este código é apresentado somente como uma demonstração, e a versão completa não será disponibilizada devido ao trabalho envolvido em seu desenvolvimento, entre outros motivos, no entanto, disponibilizo aqui a ideia base para aqueles que desejam utilizá-la em outras questões.
+
 # 💻Solução que criei para uma pequena empresa...
 - O meu amigo Jefferson que é um engenheiro civil precisa estimar a capacidade de armazenamento de água de um reservatório em uma determinada área.
 - Suponha que o reservatório tenha a forma de um retângulo, com 100 metros de largura e altura variável em diferentes pontos do terreno, para estimar a capacidade de armazenamento de água do reservatório, o engenheiro coletou dados de altura do terreno em 20 pontos diferentes, espaçados a cada 5 metros.
