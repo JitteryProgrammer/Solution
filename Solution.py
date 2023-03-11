@@ -1,5 +1,8 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
+    def maxArea(self, height: list[int]) -> int:
         left = 0
         right = len(height) - 1
         maxi = 0
@@ -27,3 +30,11 @@ max_capacity = s.maxArea(height)
 # Capacidade total em metros cúbicos
 total_capacity = max_capacity * 100
 print("A capacidade máxima de armazenamento de água do reservatório é de:", total_capacity, "metros cúbicos")
+
+#Crie um gráfico de barras para visualizar a altura do terreno
+
+plt.bar(np.arange(len(height)), height, color = 'blue')
+plt.title("Altura do terreno")
+plt.xlabel("Posição")
+plt.ylabel("Altura (m)")
+plt.show()
